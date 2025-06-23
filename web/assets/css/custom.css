@@ -17,13 +17,18 @@
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
 
+.table-container th,
+.table-container td {
+    color: #000;
+}
+
 body,
 .content-wrapper {
     background-color: #fff;
 }
 
 .navbar-inverse {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
     border-color: transparent;
 }
 .navbar-inverse .navbar-brand,

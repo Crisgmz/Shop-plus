@@ -43,7 +43,7 @@
 
 <div class="row">
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-body">
                     <h3 class="no-margin"><?php echo $moneda.' '.number_format($dinero_caja, 2, '.', ','); ?></h3>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-body">
                     <h3 class="no-margin"><?php echo $moneda.' '.number_format($compras_mes, 2, '.', ','); ?></h3>
@@ -71,7 +71,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-left media-middle">
                     <i class="icon-cash3 icon-3x opacity-75"></i>
@@ -85,7 +85,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-left media-middle">
                     <i class="icon-price-tags icon-3x opacity-75"></i>
@@ -99,7 +99,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-left media-middle">
                     <i class="icon-truck icon-3x opacity-75"></i>
@@ -113,7 +113,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-left media-middle">
                     <i class="icon-cc icon-3x opacity-75"></i>
@@ -127,7 +127,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-left media-middle">
                     <i class="icon-stack-star icon-3x opacity-75"></i>
@@ -141,7 +141,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-left media-middle">
                     <i class="icon-box icon-3x opacity-75"></i>
@@ -155,7 +155,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-body">
                     <h3 class="no-margin"><?php echo number_format($perecederos, 2, '.', ','); ?></h3>
@@ -169,7 +169,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-body">
                     <h3 class="no-margin"><?php echo number_format($a_vencer, 2, '.', ','); ?></h3>
@@ -183,7 +183,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-body">
                     <h3 class="no-margin"><?php echo number_format($clientes, 2, '.', ','); ?></h3>
@@ -197,7 +197,7 @@
     </div>
 
     <div class="col-sm-6 col-md-3">
-        <div class="panel panel-body uniform-card has-bg-image">
+        <div class="panel panel-body uniform-card">
             <div class="media no-margin">
                 <div class="media-body">
                     <h3 class="no-margin"><?php echo number_format($creditos, 2, '.', ','); ?></h3>
