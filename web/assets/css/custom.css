@@ -1,6 +1,5 @@
 /* Custom gradient styles for unified UI */
-.uniform-card,
-.panel {
+.uniform-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 15px;
     border: none;
@@ -8,8 +7,7 @@
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
-.uniform-card:hover,
-.panel:hover {
+.uniform-card:hover {
     box-shadow: 0 12px 35px rgba(0,0,0,0.2);
 }
 
@@ -19,13 +17,28 @@
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
 
+body,
+.content-wrapper {
+    background-color: #fff;
+}
+
+.navbar-inverse {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+}
+
 .sidebar {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-.app-bar {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
 
 .main-content {
     margin-left: 280px;
