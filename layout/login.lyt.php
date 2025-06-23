@@ -17,6 +17,7 @@
     <link href="web/assets/css/core.css" rel="stylesheet" type="text/css">
     <link href="web/assets/css/components.css" rel="stylesheet" type="text/css">
     <link href="web/assets/css/colors.css" rel="stylesheet" type="text/css">
+    <link href="web/assets/css/custom.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="web/assets/images/gesnet.ico">
 
 

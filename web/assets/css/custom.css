@@ -1,0 +1,44 @@
+/* Custom gradient styles for unified UI */
+.uniform-card,
+.panel {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.uniform-card:hover,
+.panel:hover {
+    box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+}
+
+.chart-panel,
+.table-container {
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.app-bar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.main-content {
+    margin-left: 280px;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+body.sidebar-xs .main-content {
+    margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+}
