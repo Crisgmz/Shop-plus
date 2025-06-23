@@ -15,9 +15,10 @@
 	<link href="web/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
 	<link href="web/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="web/assets/css/core.css" rel="stylesheet" type="text/css">
-	<link href="web/assets/css/components.css" rel="stylesheet" type="text/css">
-	<link href="web/assets/css/colors.css" rel="stylesheet" type="text/css">
-	<link rel="icon" type="image/png" href="web/assets/images/pos.png"/>
+        <link href="web/assets/css/components.css" rel="stylesheet" type="text/css">
+        <link href="web/assets/css/colors.css" rel="stylesheet" type="text/css">
+        <link href="web/assets/css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" href="web/assets/images/pos.png"/>
 	<link rel="shortcut icon" href="web/assets/images/EasyPOS.ico">
 </head>
 
